@@ -1,0 +1,29 @@
+mat-card img {
+       margin-bottom: 0;
+       width: 120px;
+       height: 120px;
+       max-width: 130px;
+       max-height: 130px;
+ }
+ mat-card{
+    margin: 0.5rem;
+ }
+
+ mat-card:hover {
+    cursor: pointer;
+ }
+ 
+ .list-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+ }
+ 
+ [mat-raised-button] {
+    margin-left: 8px;
+ }
+ 
+ mat-card-actions {
+    display: flex;
+ }
+ 
